@@ -1,0 +1,87 @@
+PODS:
+  - Firebase/Auth (4.3.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.2.1)
+  - Firebase/Core (4.3.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.8)
+  - Firebase/Database (4.3.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.0)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.2.1):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.8):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseDatabase (4.1.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.4)
+  - GeoFire (2.0.0):
+    - Firebase/Database (~> 4.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMSessionFetcher/Core (1.1.12)
+  - leveldb-library (1.18.3)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PMAlertController (3.0.0)
+  - RevealingSplashView (0.4.0)
+  - YNExpandableCell (1.1.0)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - GeoFire (from `https://github.com/firebase/geofire-objc.git`)
+  - PMAlertController
+  - RevealingSplashView
+  - YNExpandableCell
+
+EXTERNAL SOURCES:
+  GeoFire:
+    :git: https://github.com/firebase/geofire-objc.git
+
+CHECKOUT OPTIONS:
+  GeoFire:
+    :commit: 96d6463f59016785f9c5ae9b669019c44786a23f
+    :git: https://github.com/firebase/geofire-objc.git
+
+SPEC CHECKSUMS:
+  Firebase: 83283761a1ef6dc9846e03d08059f51421afbd65
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseAuth: d7f047fbeab98062b98ea933b8d934e0fb1190e2
+  FirebaseCore: 69b1a5ac5f857ba6d5fd9d5fe794f4786dd5e579
+  FirebaseDatabase: 607284a103e961d7f5863ee603cab5e85f443bd6
+  FirebaseInstanceID: 70c2b877e9338971b2429ea5a4293df6961aa44e
+  GeoFire: 02f02683e09367c2eee073c6b09c794da19833ee
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PMAlertController: 90c809d1dbf38293cfa1817da6d023314bc24075
+  RevealingSplashView: 72be158ad5e1bc72713e8f78383dc3e1803ce4d1
+  YNExpandableCell: 47bf7cff721aa535c0e9e1163bf22b5573441bb4
+
+PODFILE CHECKSUM: d533aa99df8d3309331217edbb82d191e3de789f
+
+COCOAPODS: 1.2.1
